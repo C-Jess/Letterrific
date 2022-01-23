@@ -62,6 +62,16 @@ client.on("message", async message => {
                 if (res.text != ''){message.channel.send(res.text);}
             }
         }
+        socket.onerror = (event) => {
+            console.error(event);
+            socket.close();
+          }
+          
+          socket.onclose = event => {
+            console.log(event);
+            socket = null;
+            connection.disconnect();
+          }
     }
 });
 
