@@ -49,6 +49,10 @@ header nav ul li a{
   font-size: 16px;
   font-weight: 600;
 }
+header nav ul li a:hover{
+  cursor: pointer;
+  text-shadow: #9880B2 4px 3px 10px;
+}
 main{
   margin-bottom: 6%;
 }
@@ -103,7 +107,7 @@ main div{
   color: #5121a3;
 }
 #about div{
-  padding: 2rem 20rem;
+  padding: 2rem 20%;
 }
 #about p{
   font-family: 'Quicksand', sans-serif;
