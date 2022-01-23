@@ -11,6 +11,7 @@ This is an entry to the StarHacks II Hackathon 22/01/2022 - 23/01/2022
 1. [ Introduction. ](#introduction)
 2. [ Technologies Used. ](#technologiesUsed)
 3. [ Features. ](#features)
+4. [ Links. ](#links)
 
 
 <a name="introduction"></a>
@@ -30,3 +31,9 @@ Letterrific is a Discord bot and website used to create transcripts of calls in 
 <a name="features"></a>
 ## 3. Features
 * Real-Time transcription of voice calls
+
+<a name ="links"></a>
+## 4. Links
+Discord Bot:
+
+https://discord.com/api/oauth2/authorize?client_id=934773845250961449&permissions=34606080&scope=bot
