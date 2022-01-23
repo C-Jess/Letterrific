@@ -44,6 +44,7 @@ The server is needed for bot and website)
 * Assembly AI
 * HTML
 * CSS
+* Node.js
 
 
 <a name="features"></a>
