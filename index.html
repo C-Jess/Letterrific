@@ -7,18 +7,77 @@
   <title>Document</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/styles.css"> 
-</head>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Syne:wght@600&display=swap" rel="stylesheet">
+  </head>
 <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
 <body>
   <header>
-    <h1 class="header__title">Real-Time Transcription</h1>
-    <p class="header__sub-title">Try AssemblyAI's new real-time transcription endpoint!</p>
+    <nav class="fixed">
+      <a href="index.html" id="logo">LetterificBot</a>
+      <div>
+        <ul>
+          <li>
+              <a href="index.html">HOME</a>
+          </li>
+          <li>
+              <a href="#about">ABOUT</a>
+          </li>
+          <li>
+              <a href="#interface">TRANSCRIPTOR</a>
+          </li>
+      </ul>
+      </div>
+    </nav>
+    <main>
+      <h1 class="header__title">LetterificBot </h1>
+      <h2 class="header__sub-title">is a Real-Time Transcriptor</h2>
+      <h2 class="header__sub-title">Try AssemblyAI's new real-time transcription endpoint!</h2>
+      <div>
+        <a class="header__button" href="#about">Learn more</a>
+      </div>
+    </main>
   </header>
-  <div class="real-time-interface">
-    <p id="real-time-title" class="real-time-interface__title">Click start to begin recording!</p>
-    <p id="button" class="real-time-interface__button">Start</p>
-    <p id="message" class="real-time-interface__message"></p>
-  </div>
+  <section id="about">
+      <h3>
+        About LetterificBot
+      </h3>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quos numquam dolore hic enim debitis a id itaque provident, tempore eligendi totam maxime pariatur quae! Error sequi quidem facilis eligendi!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum deleniti et praesentium cumque mollitia asperiores ea quo nihil, fugit reiciendis, dicta odit vel doloribus voluptates! Eaque consectetur aliquid obcaecati impedit.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sunt molestiae consequuntur! Saepe ipsa est nemo nesciunt odio provident quaerat excepturi vero cumque. Totam laborum dolorem tempore fugiat adipisci incidunt.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus explicabo impedit quam quaerat dolorem officiis placeat tempore, animi dicta doloremque tempora recusandae aut rerum eius voluptas sapiente iusto deleniti quas.
+        </p>
+      </div>
+  </section>
+  <section id="interface">
+    <div class="real-time-interface">
+      <p id="real-time-title" class="real-time-interface__title">Click start to begin recording!</p>
+      <p id="button" class="real-time-interface__button">Start</p>
+      <p id="message" class="real-time-interface__message"></p>
+    </div>
+    <footer>
+      <h6>
+        LetterificBot - StarHack II Project
+      </h6>
+    </footer>
+  </section>
   <script src="./js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+        $(document).scroll(function () {
+            $('.fixed').toggleClass('scrolled', $(this).
+             scrollTop() > $('.fixed').height());
+        });
+
+  </script>
 </body>
 </html>
