@@ -74,7 +74,7 @@ main div{
 }
 .header__button{
   align-self: center;
-  padding: .75em;
+  padding: .55em;
   border-radius: .5rem;
   justify-content: center;
   cursor: pointer;
@@ -86,7 +86,7 @@ main div{
   transition: .2s ease-in;
 }
 .header__button:hover{
-  padding: 1em;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.384);
 }
 #about{
   display: flex;
@@ -98,9 +98,9 @@ main div{
   padding-top: 6%;
   padding-right: 4%;
   padding-left: 4%;
+  font-family: 'Quicksand', sans-serif;
 }
 #about h3{
-  font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   font-size: 2rem;
   padding-bottom: 1rem;
@@ -110,10 +110,27 @@ main div{
   padding: 2rem 20%;
 }
 #about p{
-  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
+}
+#about a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  padding: .55em;
+  border-radius: .5rem;
+  justify-content: center;
+  cursor: pointer;
+  background: #6b2bd6;
+  color: white;
+  font-size: 18px;
+  transition: .2s ease-in;
+}
+#about a:hover{
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.384);
 }
 #interface{
   display: flex;
@@ -134,7 +151,7 @@ main div{
 
 .real-time-interface__button {
   display: flex;
-  padding: .5em;
+  padding: .55em;
   border-radius: .5rem;
   justify-content: center;
   cursor: pointer;
@@ -144,7 +161,7 @@ main div{
   transition: .2s ease-in;
 }
 .real-time-interface__button:hover{
-  box-shadow: 5px 5px 7px rgb(0 0 0 / 16%);;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.384);
 }
 
 .real-time-interface__title {
